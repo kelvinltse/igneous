@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "igneous"
+  site-url: "https://kelvinltse.github.io/igneous"
+  description: "rox"
+  repo-branch: main
+  repo-url: "https://github.com/kelvinltse/igneous"
