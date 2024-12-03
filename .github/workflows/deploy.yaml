@@ -28,9 +28,13 @@ jobs:
       - name: Debug Directory Structure
         run: |
           pwd
+          echo "Current directory contents:"
           ls -la
+          echo "nbs directory contents:"
           ls -la nbs/
-          ls -la igneous/
+          echo "Building docs..."
+          nbdev_clean
+          PYTHONPATH=$PYTHONPATH:$(pwd) nbdev_docs
       - name: Build Documentation
         run: |
           nbdev_clean

@@ -24,10 +24,10 @@ def get_model_path():
         if notebook_path.exists():
             return notebook_path
         
-        # Try absolute path as fallback
-        abs_path = Path('/Users/kelvin/igneous/nbs/export.pkl')
-        if abs_path.exists():
-            return abs_path
+       # Try relative to project root
+        proj_path = Path('.') / 'nbs' / 'export.pkl'
+        if proj_path.exists():
+            return proj_path
             
     raise FileNotFoundError(f"Could not find export.pkl in expected locations")
 
