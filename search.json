@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "igneous",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "igneous"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "igneous",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall igneous in Development mode\n# make sure igneous package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to igneous\n$ nbdev_prepare",
+    "crumbs": [
+      "igneous"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "igneous",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/kelvinltse/igneous.git\nor from conda\n$ conda install -c kelvinltse igneous\nor from pypi\n$ pip install igneous\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "igneous"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "igneous",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "igneous"
+    ]
+  },
+  {
+    "objectID": "igneous.html",
+    "href": "igneous.html",
+    "title": "igneous",
+    "section": "",
+    "text": "source\n\nget_model_path\n\n get_model_path ()\n\n\n# #| export\n# learn = load_learner('export.pkl')\n\n\nsource\n\n\nclassify_image\n\n classify_image (img)",
+    "crumbs": [
+      "igneous"
+    ]
+  }
+]
