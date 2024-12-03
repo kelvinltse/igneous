@@ -20,6 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install nbdev
+          pip install gradio
           pip install -e ".[dev]"
           pip list | grep nbdev
           which nbdev_docs
